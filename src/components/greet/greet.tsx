@@ -2,10 +2,10 @@ type GreetProps = {
   name?: string
 }
 
-export default function greet(props: GreetProps) {
+export default function Greet(props: GreetProps) {
   return (
     <div>
-      Hello {props.name}
+      hello {props.name}
     </div>
   )
 }
